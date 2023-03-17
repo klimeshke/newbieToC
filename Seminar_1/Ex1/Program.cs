@@ -1,9 +1,9 @@
 ﻿Console.Clear();
 
 Console.Write("Введите превое число: ");
-int numA = int.Parse(Console.ReadLine());
+int numA = int.Parse(Console.ReadLine() ?? "");
 Console.Write("Введите второе число: ");
-int numB = int.Parse(Console.ReadLine());
+int numB = int.Parse(Console.ReadLine() ?? "");
 
 int check = (int)Math.Pow(numB, 2);
 

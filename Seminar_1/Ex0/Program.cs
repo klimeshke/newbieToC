@@ -19,7 +19,7 @@
 // Console.WriteLine($"Квадрат {userNumber} равен {result}");
 
 Console.Write("Введите целое число: ");
-int userNumber = int.Parse(Console.ReadLine());
+int userNumber = int.Parse(Console.ReadLine() ?? "");
 
 int result = (int)Math.Pow(userNumber, 2); //явное преобразование в интеджер
 
