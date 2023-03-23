@@ -9,8 +9,14 @@ Console.Write("Введите втророе число: ");
 int numB = int.Parse(Console.ReadLine() ?? "");
 
 if (numA == numB)
+{
     Console.WriteLine("Числа равны");
+}
 else if (numA > numB)
+{
     Console.WriteLine($"{numA} большее, {numB} меньшее");
+}
 else
-Console.WriteLine($"{numA} меньшее, {numB} большее");
+{
+    Console.WriteLine($"{numA} меньшее, {numB} большее");
+}
